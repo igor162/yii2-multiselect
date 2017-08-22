@@ -25,6 +25,9 @@ On your view file.
 
 <?php
 use igor162\MultiSelect\MultiSelect;
+
+/* @var array $items */
+/* @var array $children */
 ?>
 
 <?= $form->field($model, 'children')->widget(MultiSelect::className(), [
