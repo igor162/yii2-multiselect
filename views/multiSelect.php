@@ -17,16 +17,6 @@ use kartik\icons\Icon;
     <?php } ?>
 
 	<?= Html::dropDownList('', null, $list, ['class' => 'form-control list', 'id' => 'rules']); ?>
-<!--	--><?//= kartik\select2\Select2::widget([
-//        'name' => 'rules',
-//        'id' => 'rules',
-//        'data' => $list,
-//        'hideSearch' => true,
-//        'options' => ['placeholder' => 'Select a state ...'],
-//        'pluginOptions' => [
-//            'allowClear' => false
-//        ],
-//    ]); ?>
 	<table class="table table-striped table-bordered table-condensed">
         <tbody>
             <tr class="hidden">
